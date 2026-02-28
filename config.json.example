@@ -1,0 +1,7 @@
+{
+    "source_directory": "/path/to/immich/library",
+    "destination_directory": "/path/to/syncthing/folder",
+    "database_file": "backup_log.db",
+    "max_storage_size_mb": 1024,
+    "oldest_date": "2023-01-01"
+}
