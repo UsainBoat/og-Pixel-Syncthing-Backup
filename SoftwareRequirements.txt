@@ -1,0 +1,11 @@
+Description:
+This is a script that reads from a specified Immich directory, collects images, copies them to a Syncthing directory, and then documents the file in a database.
+
+
+The Software shall:
+* run as a single pass script
+* have a configurable read directory
+* have a configurable write directory
+* log the files moved in an SQLite database
+* have a configurable maximum storage size to copy at once
+* first delete all files in the syncthing directory have a configurable oldest date of images that it will copy. Only images newer than this date shall be considered for copying
