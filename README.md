@@ -1,6 +1,6 @@
 # og-Pixel-Syncthing-Backup
 
-A Python script designed to act as a staging mechanism between an Immich photo library and a Syncthing folder. It selects a batch of images from the source, copies them to the destination for synchronization, and logs the process to ensure files are not re-copied in subsequent runs.
+A vibe-coded Python script designed to act as a staging mechanism between an Immich photo library and a Syncthing folder. It selects a batch of images from the source, copies them to the destination for synchronization, and logs the process to ensure files are not re-copied in subsequent runs.
 
 ## Features
 
@@ -21,6 +21,8 @@ A Python script designed to act as a staging mechanism between an Immich photo l
 1.  Clone the repository.
 2.  Install dependencies:
     ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate
     pip install -r requirements.txt
     ```
 
